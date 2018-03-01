@@ -20,18 +20,20 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 520px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
+    margin-top: 90px;
   }
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
+    margin-top: 0;
     top: 40%;
   }
   #index-banner .section {
@@ -54,4 +56,10 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+
+/*  MO-X Custom  */
+h1.header {
+  text-transform: uppercase;
 }
