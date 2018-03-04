@@ -27,7 +27,7 @@ p {
 }
   .parallax-container .section {
     width: 100%;
-    margin-top: 90px;
+    margin-top: 70px;
   }
 
 @media only screen and (max-width : 992px) {
@@ -60,6 +60,18 @@ footer.page-footer {
 
 
 /*  MO-X Custom  */
-h1.header {
+.brand-logo img {
+  width: 4em;
+}
+
+h1 {
   text-transform: uppercase;
+}
+
+nav ul a:hover {
+  color: #4db6ac !important;
+}
+
+.scrollfire-row div.col {
+  opacity: 0;
 }
