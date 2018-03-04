@@ -12,7 +12,12 @@
         $(el).children().each(function (index) {
           $(this).delay(1000 * index).animate({opacity: 1}, 1000);
         })
-      } }
+      } },
+      {selector: '#scrollfire-row-ux', offset: 700, callback: function(el) {
+        $(el).children().each(function (index) {
+          $(this).delay(1000 * index).animate({opacity: 1}, 1000);
+        })
+      } },
     ];
     Materialize.scrollFire(options);
 
