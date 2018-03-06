@@ -6,7 +6,6 @@
     $('.scrollspy').scrollSpy({scrollOffset: 0});
 
 
-
     var options = [
       {selector: '#scrollfire-row-technics', offset: 400, callback: function(el) {
         $(el).children().each(function (index) {
@@ -21,6 +20,6 @@
     ];
     Materialize.scrollFire(options);
 
-
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+
