@@ -88,6 +88,15 @@ footer.page-footer {
   margin: 0;
 }
 
+footer img {
+  width: 25rem;
+}
+
+footer h5 {
+  border-top: 6px solid #fff;
+  padding-top: 20px;
+}
+
 
 /*  MO-X Custom  */
 .brand-logo img {
