@@ -95,11 +95,19 @@ nav ul a:hover {
   filter: brightness(5) opacity(80%);
 }
 
+#nav-team img {
+  margin: 8px 0;
+}
+
 
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
   overflow: hidden;
+}
+
+#nav-map.embed-container {
+  padding-bottom: 30%;
 }
 		
 .embed-container iframe,
@@ -111,3 +119,4 @@ nav ul a:hover {
   width: 100%;
   height: 100%;
 }
+
