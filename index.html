@@ -228,7 +228,7 @@
 
   <!-- REQUEST Container -->
   <div class="teal lighten-2">
-      <div class="container scrollspy" id="nav-team">
+      <div class="container scrollspy" id="nav-request">
         <div class="section">
   
           <div class="row center">
@@ -236,11 +236,33 @@
           </div>
   
           <div class="row center">
-              <form action="https://formspree.io/your@htwg.ar@gmail.com" method="POST" class="col s12">
-                <input type="text" name="name" placeholder="Your Name.">
-                <input type="email" name="_replyto" placeholder="Your E-Mail.">
-                <input type="submit" value="Send">
-              </form> 
+              <form method="POST" action="https://formspree.io/htwg.ar@gmail.com" class="col s12">
+
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input name="name" id="name" type="text" class="validate">
+                    <label for="name">Your Name.</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <input name="email" id="email" type="email" class="validate">
+                    <label for="email">Your E-Mail.</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea name="message" id="message" class="materialize-textarea validate"></textarea>
+                    <label for="message">Your Message.</label>
+                  </div>
+                </div>
+                
+                <button type="submit" class="btn-large waves-effect waves-light">Send</button>
+              </form>
           </div>
   
         </div>
