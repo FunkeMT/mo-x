@@ -1,9 +1,11 @@
 /* Custom Stylesheet */
+
 /**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
  * Made By MaterializeCSS.com
+ *
+ * MO-X
+ * Edit By FunkeMT
+ * 2018
  */
 
 nav ul a,
@@ -97,8 +99,6 @@ footer h5 {
   padding-top: 20px;
 }
 
-
-/*  MO-X Custom  */
 .brand-logo img {
   width: 4em;
 }
@@ -140,8 +140,3 @@ nav ul a:hover {
 #nav-request .input-field label{
   padding-left: 10px;
 }
-
-
-
-
-
